@@ -46,17 +46,12 @@ jobs:
       - name: Build VuePress site
         run: yarn docs:build
       
-        
-      - if: ${{ secrets.NEOCITIES_API_TOKEN != '' }}
-        run: echo 'This step will only run if the secret has a value set.'
-      - if: ${{ secrets.NEOCITIES_API_TOKEN == '' }}
-        run: echo 'This step will only run if the secret does not have a value set.'
       
       # deploy 
       - name: Deploy to neocities
         uses: bcomnes/deploy-to-neocities@v1
         with:
-          api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
+          api_token: ${{ upload.NEOCITIES_API_TOKEN }}
           cleanup: false
           dist_dir: docs/.vuepress/dist
           
