@@ -46,7 +46,6 @@ jobs:
       - name: Build VuePress site
         run: yarn docs:build
       
-      - name: check key
         
       - if: ${{ secrets.NEOCITIES_API_TOKEN != '' }}
         run: echo 'This step will only run if the secret has a value set.'
