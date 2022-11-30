@@ -11,6 +11,7 @@ concurrency: # prevent concurrent deploys doing strange things
   cancel-in-progress: true
 
 jobs:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -45,9 +46,10 @@ jobs:
       - name: Build VuePress site
         run: yarn docs:build
         
-    - name: Deploy to neocities
-      uses: Eniei/deploy-to-neocities@v1
-      with:
-        api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
-        cleanup: false
-        dist_dir: docs/.vuepress/dist
+      # deploy 
+      - name: Deploy to neocities
+        uses: Eniei/deploy-to-neocities@v1
+        with:
+          api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
+          cleanup: false
+          dist_dir: docs/.vuepress/dist
