@@ -51,7 +51,7 @@ jobs:
       - name: Deploy to neocities
         uses: bcomnes/deploy-to-neocities@v1
         with:
-          api_token: ${{ upload.NEOCITIES_API_TOKEN }}
+          api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
           cleanup: false
           dist_dir: docs/.vuepress/dist
           
