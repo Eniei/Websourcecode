@@ -1,0 +1,32 @@
+Arguments: 
+  E:\Node\node.exe C:\Users\Eniei\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Users\Eniei\bin;E:\Git\mingw64\bin;E:\Git\usr\local\bin;E:\Git\usr\bin;E:\Git\usr\bin;E:\Git\mingw64\bin;E:\Git\usr\bin;C:\Users\Eniei\bin;C:\Python311\Scripts;C:\Python311;C:\Program Files\Eclipse Adoptium\jre-17.0.4.8-hotspot\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\libnvvp;C:\Program Files\PlasticSCM5\server;C:\Program Files\PlasticSCM5\client;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;E:\xampp\php;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\SERVER\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.2.0;C:\Program Files\dotnet;E:\Node;C:\ProgramData\chocolatey\bin;E:\Git\cmd;C:\Users\Eniei\AppData\Local\Microsoft\WindowsApps;C:\Users\Eniei\AppData\Local\GitHubDesktop\bin;E:\Microsoft VS Code\bin;E:\PyCharm Community Edition 2020.2.1\bin;C:\Users\Eniei\AppData\Local\Microsoft\WindowsApps;C:\texlive\2022\bin\win32;C:\Users\Eniei\AppData\Roaming\npm;E:\Git\usr\bin\vendor_perl;E:\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Can't answer a question unless a user TTY
+      at ConsoleReporter.question (C:\Users\Eniei\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:92864:59)
+      at Object.<anonymous> (C:\Users\Eniei\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:85054:38)
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Eniei\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\Eniei\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
